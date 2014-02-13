@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oink SpecRunner</title>
+		<link type="text/css" rel="stylesheet" href="jasmine/jasmine.css"/>
+		<script src="jasmine/jasmine.js"> </script>
+		<script src="jasmine/jasmine-html.js"> </script>
+	</head>
+	<body>
+
+		<script src="src/oink.js"></script>
+		<script src="src/oinkSpec.js"></script>	
+		<script>
+			(function () {
+				var j = jasmine.getEnv();
+				j.addReporter(new jasmine.HtmlReporter());
+				j.addReporter(new jasmine.TrivialReporter());
+				j.execute();
+			})();
+		</script>
+	</body>
+</html>

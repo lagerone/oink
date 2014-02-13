@@ -1,0 +1,11 @@
+{
+  "name": "Oink",
+  "version": "1.0.0",
+  "title": "Oink",
+  "Description": "Oink is a small library for editing properties on DOM elements",
+  "main": ["oink.min.js"],
+  "author": {
+  	"name": "Daniel Lager",
+  	"url": "https://github.com/lagerone"
+  }
+}
