@@ -1,5 +1,6 @@
 {
-  "name": "Oink",
+  "name": "oink",
+  "title": "Oink",
   "version": "1.0.0",
   "title": "Oink",
   "Description": "Oink is a small library for editing properties on DOM elements",
